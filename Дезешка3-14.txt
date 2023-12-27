@@ -1,0 +1,6 @@
+array = [int(x) for x in input("Введіть елементи масиву через пробіл: ").split()]
+for i in range(len(array)):
+    if array[i] % 2 != 0:
+        array[i] = 0
+
+print(f"Масив після заміни непарних чисел на 0: {array}")
